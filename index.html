@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0, user-scalable=yes">
+	<title>The Bakery: The country's largest en best bakery!</title>
+	<!-- code hier toevoegen -->
+	<!-- <link rel="stylesheet" href="css/galarie.prefixed.css"> -->
+	<link rel="stylesheet" type="text/css" href="slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header><!-- Plaats de verwijzingen naar de logo's (op een mobiel scherm is een ander logo zichtbaar dan op tablet en desktop) 
+        en zorg dat de tekst in de H1 Heading op een toegankelijke manier wordt verborgen.
+        Verder de Code in de header niet wijzigen. Bevat navigatiemenu.  -->
+            <div class="container">
+                <h1 class="sr-only">
+                    <a href="/">
+                        <span>The Bakery: The country&apos;s largest and best bakery!</span>
+                    </a>
+                </h1>
+			<nav>
+			<!-- mobile menu //-->
+			<!-- logo mobile -->
+			<a href="index.html"><img src="images/icons-logos/logo_secondary.png" alt="Logo The Bakery" class="logo logo-mobile"></a>
+			<label for="showMenu" id="showMenuLabel"></label>
+			<input type="checkbox" id="showMenu" role="button" aria-pressed="true">				
+				<ul>
+					<li><a href="/" class="active">Home</a></li>
+					<li><a href="about/">About</a></li>
+					<li><a href="menu/">Menu</a></li>
+					<li><a href="products/">Products</a></li>
+					<!-- logo desktop and tablet -->
+					<li class="logo-tablet-desktop"><a href="index.html"><img src="images/icons-logos/logo.png" alt=""></a></li>
+					<li><a href="gallary/">Gallery</a></li>
+					<li><a href="pages/">Pages</a></li>
+					<li><a href="blog/">Blog</a></li>
+					<li><a href="contact/">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<!-- code hier toevoegen -->
+	<div class="hero-wrapper">
+		<div class="hero">	
+			<div class="hero-text">
+			<h1>A delicious range of bread</h1>
+			<p>We have a large variety to suit all taste buds</p>	
+			</div>
+		</div>
+	</div>	
+	<main>
+		<div class="container">
+			<div class="section-heading">
+				<h2>Our latest bakery products</h2>
+				<hr class="colorful-hr">
+				<p class="typewriter-text">Check some of our best products and feel the great passion for food</p>
+			</div>		
+			<div class="latest-products">
+				<div class="slide-show">
+					<div class="card">
+						<div class="card-image">
+						<img src="images/products/m-product-1.jpg" alt="Three bagels on a plate">
+						</div>
+						<div class="card-overlay">
+						<ul class="card-icons">
+							<li><a href="#"><i class="fas fa-search"></i></a></li>
+							<li><a href="#"><i class="fas fa-link"></i></a></li>
+							<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+						</ul>
+						<h3 class="card-title">Bagels</h3>
+						<p class="card-text">Bread</p>
+						<p class="latest-product-price">$5.25</p>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="card-image">
+						<img src="images/products/m-product-2.jpg" alt="Loaf of wholewheat bread">
+						</div>
+						<div class="card-overlay">
+						<ul class="card-icons">
+							<li><a href="#"><i class="fas fa-search"></i></a></li>
+							<li><a href="#"><i class="fas fa-link"></i></a></li>
+							<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+						</ul>
+						<h3 class="card-title">Wholewheat bread</h3>
+						<p class="card-text">Bread</p>
+						<p class="latest-product-price">$15</p>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="card-image">
+						<img src="images/products/m-product-3.jpg" alt="Italian tiramisu on a plate">
+						</div>
+						<div class="card-overlay">
+						<ul class="card-icons">
+							<li><a href="#"><i class="fas fa-search"></i></a></li>
+							<li><a href="#"><i class="fas fa-link"></i></a></li>
+							<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+						</ul>
+						<h3 class="card-title">Tiramisu</h3>
+						<p class="card-text">Cakes</p>
+						<p class="latest-product-price">$12.25</p>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="card-image  card-best card-flag">
+						<img src="images/products/m-product-4.jpg" alt="A cup of the Bakery's special coffee">
+						</div>
+						<div class="card-overlay">
+						<ul class="card-icons">
+							<li><a href="#"><i class="fas fa-search"></i></a></li>
+							<li><a href="#"><i class="fas fa-link"></i></a></li>
+							<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+						</ul>
+						<h3 class="card-title">Coffee special</h3>
+						<p class="card-text">Warm drinks</p>
+						<p class="latest-product-price">$2.75</p>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="card-image">
+						<img src="images/products/m-product-5.jpg" alt="A chunck of a fruit cheesecake">
+						</div>
+						<div class="card-overlay">
+						<ul class="card-icons">
+							<li><a href="#"><i class="fas fa-search"></i></a></li>
+							<li><a href="#"><i class="fas fa-link"></i></a></li>
+							<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+						</ul>
+						<h3 class="card-title">Fruit Cheesecake</h3>
+						<p class="card-text">Cakes</p>
+						<p class="latest-product-price">$11.25</p>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="card-image">
+						<img src="images/products/m-product-6.jpg" alt="A chunck of chocolate cake">
+						</div>
+						<div class="card-overlay">
+						<ul class="card-icons">
+							<li><a href="#"><i class="fas fa-search"></i></a></li>
+							<li><a href="#"><i class="fas fa-link"></i></a></li>
+							<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+						</ul>
+						<h3 class="card-title">Chocolate cake</h3>
+						<p class="card-text">Cakes</p>
+						<p class="latest-product-price">$11.25</p>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="card-image card-new card-flag">
+						<img src="images/products/m-product-7.jpg" alt="Two creamy chocolate cookies on a plate">
+						</div>
+						<div class="card-overlay">
+						<ul class="card-icons">
+							<li><a href="#"><i class="fas fa-search"></i></a></li>
+							<li><a href="#"><i class="fas fa-link"></i></a></li>
+							<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+						</ul>
+						<h3 class="card-title">Chocolate cookies</h3>
+						<p class="card-text">Cookies</p>
+						<p class="latest-product-price">$11.25</p>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="card-image">
+						<img src="images/products/m-product-8.jpg" alt="German sachtertorte">
+						</div>
+						<div class="card-overlay">
+						<ul class="card-icons">
+							<li><a href="#"><i class="fas fa-search"></i></a></li>
+							<li><a href="#"><i class="fas fa-link"></i></a></li>
+							<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+						</ul>
+						<h3 class="card-title">Sachertorte</h3>
+						<p class="card-text">Cakes</p>
+						<p class="latest-product-price">$15.25</p>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="card-image">
+						<img src="images/products/m-product-9.jpg" alt="Cappucino with a muffin">
+						</div>
+						<div class="card-overlay">
+						<ul class="card-icons">
+							<li><a href="#"><i class="fas fa-search"></i></a></li>
+							<li><a href="#"><i class="fas fa-link"></i></a></li>
+							<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+						</ul>
+						<h3 class="card-title">Cappucino</h3>
+						<p class="card-text">Warm drinks</p>
+						<p class="latest-product-price">$4.55</p>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="card-image">
+						<img src="images/products/m-product-10.jpg" alt="Caramel cake on a plate">
+						</div>
+						<div class="card-overlay">
+						<ul class="card-icons">
+							<li><a href="#"><i class="fas fa-search"></i></a></li>
+							<li><a href="#"><i class="fas fa-link"></i></a></li>
+							<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+						</ul>
+						<h3 class="card-title">Caramel Cheesecake</h3>
+						<p class="card-text">Cakes</p>
+						<p class="latest-product-price">$10.25</p>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="card-image">
+						<img src="images/products/m-product-11.jpg" alt="Vanilla muffins with a strwaberry on a plate">
+						</div>
+						<div class="card-overlay">
+						<ul class="card-icons">
+							<li><a href="#"><i class="fas fa-search"></i></a></li>
+							<li><a href=""><i class="fas fa-link"></i></a></li>
+							<li><a href=""><i class="fas fa-shopping-cart"></i></a></li>
+						</ul>
+						<h3 class="card-title">Vanilla muffins</h3>
+						<p class="card-text">Muffins</p>
+						<p class="latest-product-price">$4.25</p>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="card-image">
+						<img src="images/products/m-product-12.jpg" alt="Seashell cookies on a plate with chocolate powder">
+						</div>
+						<div class="card-overlay">
+						<ul class="card-icons">
+							<li><a href="#"><i class="fas fa-search"></i></a></li>
+							<li><a href="#"><i class="fas fa-link"></i></a></li>
+							<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+						</ul>
+						<h3 class="card-title">Seashell cookies</h3>
+						<p class="card-text">Cookies</p>
+						<p class="latest-product-price">$2</p>
+						</div>
+					</div>
+				</div>	
+			</div><!--  end latest products -->	
+			<div class="btn latest-products-btn">
+				<a href="#">See all our products</a>
+			</div>
+	</div><!-- end container -->
+
+	<!-- TESTIMONIAL SECTION-->	
+	<div class="testimonial-section">
+		<div class="container-testimonial">
+			<div class="testimonial-author-image animated-image">
+				<img src="images/testimonials/mTestimonial-3.jpg" alt="Portret image of Jean Fletcher">
+			</div>
+			<div class="testimonial-content">
+				<div class="testimonial-description">
+					<p>Many thanks to everybody at Bakery for the gorgeous 35th birthday cake which was enjoyed by all on Sunday. You have won a new legion of fans. Much love to you all.</p>
+				</div>
+				<div class="testimonial-navigation">
+					<div class="outer-circle">
+						<div class="inner-circle active"></div>
+					</div>
+					<div class="outer-circle">
+						<div class="inner-circle"></div>
+					</div>
+					<div class="outer-circle">
+						<div class="inner-circle"></div>
+					</div>
+				</div>
+			</div><!-- end testimonial content -->
+		</div><!-- end container testimonial -->
+	</div><!-- end section testimonial -->
+
+	<section class="section-main-services">
+		<div class="container">
+		  <div class="section-heading">
+				<h2>Main services we provide</h2>
+				<hr class="colorful-hr">
+				<p class="typewriter-text">Our services are the best in town, we provide great quality baked products</p>
+		   </div>
+		   <div class="main-services">
+			  <div class="service">
+				<div class="service-icon">
+				  <img src="images/icons-logos/icon-breads.png" alt="bread icon" class="icon">
+				</div>
+				<h3>Lots of bread</h3>
+				<hr>
+				<p>We bake and deliver fresh bread seven days a week to our cafes, farmers&#39; markets and grocery stored throughout the NY city.</p>
+			  </div>
+			  <div class="service">
+				<div class="service-icon">
+				  <img src="images/icons-logos/icon-cakes.png" alt="cake icon" class="icon">
+				</div>
+				<h3>Cakes</h3>
+				<hr>
+				<p>We are dedicated to making cakes that are both moist and flavorful. All of our cakes are frosted and decorated with precision.</p>
+			  </div>
+			  <div class="service">
+				<div class="service-icon">
+				  <img src="images/icons-logos/icon-cookies.png" alt="cookie icon" class="icon">
+				</div>
+				<h3>Cookies</h3>
+				<hr>
+				<p>Our sumptuous sugar cookies are a labor of love. They are made from scratch using only the finest ingredients and extracts.</p>
+			  </div>
+			  <div class="service">
+				<div class="service-icon">
+				  <img src="images/icons-logos/icon-muffins.png" alt="muffin-icon" class="icon">
+				</div>
+				<h3>Muffins</h3>
+				<hr>
+				<p>Our muffins can be decorated to suit any occasion. From birthdays to weddings, our muffins are the perfect single-serving confection.</p>
+			  </div>
+		   </div>
+		</div>
+	  </section>	 
+
+	  <section class="section-about">
+		<div class="container">
+		  <div class="about-inner">
+			<div class="about-col-1">
+			  <h3>About</h3>
+			  <p>Bakery was formed in 2014 after the merger of the two largest bakeries in the country; The Creative Muffin and Westcoast Bread. With over 200 employees, there isn&#39;t a job too big or too ambitious.</p>
+			</div>
+			<div class="about-col-2">
+			  <img src="images/icons-logos/logo2.png" alt="Bakery logo">
+			</div>
+			<div class="about-col-3">
+			  <h3>Subscribe</h3>
+			  <p>Give us your email, and we shall send regular updates for new stuff and events.</p>
+			  <form action="#" method="post">
+				<label for="email"></label>
+				<input type="email" name="email" id="email" required>
+				<input type="submit" value="subscribe" class="subscribe-btn">
+			  </form>
+			</div>
+		  </div>
+		</div>
+	  </section>	 
+	</main>
+	
+	<footer><!-- Code in de footer niet wijzigen. Bevat contact en marketing info. -->
+		<div class="container">
+			<h2>Extra information about the Bakery</h2>
+		
+			<div>
+				<h3>Working time</h3>
+				<p>Monday - Friday: <time datetime="08:00">8:00 am</time> - <time datetime="20:30">8:30 pm</time><br>
+				Saturday - Sunday: <time datetime="10:00">10:00 am</time> - <time datetime="16:30">4:30 pm</time>
+				</p>
+			</div>
+		
+			<div>
+				<h3>Happy Hours</h3>
+				<p>Join us for Happy Hour!<br>Enjoy discount baked goods.<br>
+					<time datetime="08:00">8:00 am</time>-<time datetime="17:00">5:00 pm </time> Daily
+				</p>
+			</div>
+		
+			<div>
+				<h3>Follow us</h3>
+				<ul id="footerSocMed">
+					<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            		<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            		<li><a href="#"><i class="fas fa-rss"></i></a></li>
+            		<li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+            		<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+				</ul>
+			</div>
+		
+			<div>
+				<h3>Contact us</h3>
+				<address>
+					<ul id="footerContactUs">
+						<li><a href="tel:080012345688"><i class="fas fa-phone"></i> 0 800 123 456 88</a></li>
+						<li><i class="fas fa-location-arrow"></i> 30 Hampton Road Southhampton, NY 11968</li>
+						<li>
+						  <a href="mailto:info@bakerytheme.com"><i class="fas fa-envelope"></i> info@bakerytheme.com</a>
+						</li>
+						<li>
+						  <a href="http://www.bakerytheme.com"><i class="fas fa-globe"></i> www.bakerytheme.com</a>
+						</li>
+					  </ul>
+				</address>
+			</div>
+		</div>
+		<a href="#showMenu" id="back-to-top" title="Back to top">&uarr;</a>
+	</footer>
+	<!-- <script src="js/slideshow-mobile.js"></script> -->
+	<!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+	<script src="slick/slick.js"></script>
+	<script>
+	$(document).ready(function(){
+ 	$('.slide-show').slick({
+    slidesToShow: 4, // Number of slides per view on desktop
+    slidesToScroll: 4, // Number of slides to scroll on desktop
+	rows:2,
+	slidesPerRow: 1,
+    dots: true, // Display navigation dots
+    responsive: [
+	{
+		breakpoint: 1024, // desktop
+		settings: {
+		slidesToShow: 4, // 3 slides per view
+		slidesToScroll: 4, // 3 slides to scroll
+		rows: 2, // 2 rijen
+		slidesPerRow: 1, // 1 slide per kolom
+        }
+      },	
+      {
+        breakpoint: 1024, // tablet
+        settings: {
+        slidesToShow: 3, // 3 slides per view
+        slidesToScroll: 3, // 3 slides to scroll
+		rows: 2, // 2 rijen
+        slidesPerRow: 1, // 1 slide per kolom
+        }
+      },
+      {
+        breakpoint: 512, // mobile
+        settings: {		
+		slidesToShow: 1, // Display 1 slide at a time
+        slidesToScroll: 1, // Scroll 1 slide at a time
+        rows: 1, // Disable rows
+        slidesPerRow: 1, // 1 slide per column
+        }
+      }
+    ]
+  });
+});
+	</script>
+	<script src="js/back-to-top.js"></script>
+	<script src="https://kit.fontawesome.com/63a6f1efdb.js" crossorigin="anonymous"></script>
+</body>
+</html>
